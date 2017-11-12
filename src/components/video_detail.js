@@ -1,7 +1,7 @@
 import React from 'react';
 
 const VideoDetail = ({video}) => {
-
+    //check for the existence of the video (if it has loaded) before moving on.
     if (!video) {
         return <div>Loading.. </div>;
     }
